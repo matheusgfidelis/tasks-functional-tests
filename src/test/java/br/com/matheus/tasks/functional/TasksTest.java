@@ -36,7 +36,7 @@ public class TasksTest {
 			driver.findElement(By.id("task")).sendKeys("Task1");
 			
 			//Preencher campo data
-			driver.findElement(By.id("dueDate")).sendKeys("30/07/2020");
+			driver.findElement(By.id("dueDate")).sendKeys("03/08/2020");
 			
 			//Clicar em salvar
 			driver.findElement(By.id("saveButton")).click();
